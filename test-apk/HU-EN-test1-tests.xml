@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nfsmw.android.AppLanguageTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-09T16:22:48" hostname="c0c02c6d4db0" time="6.799">
+  <properties/>
+  <testcase name="translatingOptionsDoesNotChangeNativeArguments" classname="com.nfsmw.android.AppLanguageTest" time="4.644"/>
+  <testcase name="deviceLanguageFallsBackToEnglishUnlessHungarian" classname="com.nfsmw.android.AppLanguageTest" time="0.031"/>
+  <testcase name="explicitLanguageSurvivesContextRecreation" classname="com.nfsmw.android.AppLanguageTest" time="0.031"/>
+  <testcase name="newInstallDefaultsToEnglishGameText" classname="com.nfsmw.android.AppLanguageTest" time="0.047"/>
+  <testcase name="languageDialogWorksBeforeStoragePermissionIsGranted" classname="com.nfsmw.android.AppLanguageTest" time="1.665"/>
+  <testcase name="launcherStartsWithoutGameFilesInBothLanguages" classname="com.nfsmw.android.AppLanguageTest" time="0.381"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

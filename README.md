@@ -5,6 +5,8 @@ Az eredeti v0.5.4 natív motorját változatlanul használja. **A Galaxy A57-en 
 
 ## Tesztváltozat
 
+**[NFSMW HU/EN test1 APK letöltése](https://github.com/fuloplevente1998/NFSMW/raw/refs/heads/codex/hu-en-test1/test-apk/NFSMW-HU-EN-test1.apk)**
+
 - Magyar és angol indítófelület, beállítások és érintős vezérlők.
 - Megjegyzett nyelvválasztás az „Alkalmazás nyelve / App language” menüben.
 - Külön telepíthető APK: `com.nfsmw.android.huen`, `0.5.4-hu-en-test1`.
