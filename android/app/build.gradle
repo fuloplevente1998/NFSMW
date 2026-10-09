@@ -1,0 +1,97 @@
+plugins {
+    id 'com.android.application'
+}
+
+// Rebuild the Android UI while retaining the released engine byte for byte.
+// tools/prepare_android_prebuilt.py populates this ignored local directory.
+def reuseNative = providers.gradleProperty('reuseNative').orElse('false').get().toBoolean()
+def prebuiltRoot = file("$rootDir/../out/android-prebuilt")
+
+android {
+    namespace 'com.nfsmw.android'
+    compileSdk 35
+
+    sourceSets {
+        if (reuseNative) {
+            main.java.srcDirs += ["$prebuiltRoot/sdl-java"]
+            main.jniLibs.srcDirs = ["$prebuiltRoot/jniLibs"]
+            main.assets.srcDirs = ["$prebuiltRoot/assets"]
+        } else {
+            main.java.srcDirs += ["$rootDir/../sdk/thirdparty/sdl3/android-project/app/src/main/java"]
+        }
+    }
+
+    defaultConfig {
+        applicationId 'com.nfsmw.android'
+        minSdk 26
+        targetSdk 35
+        versionCode 12
+        versionName '0.5.4'
+        buildConfigField 'boolean', 'REUSE_NATIVE', reuseNative.toString()
+        if (reuseNative) {
+            applicationIdSuffix '.huen'
+            versionName '0.5.4-hu-en-test1'
+            versionCode 13
+        }
+        ndk {
+            abiFilters 'arm64-v8a'
+        }
+        if (!reuseNative) { externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++23'
+                arguments '-DANDROID_STL=c++_shared'
+            }
+        } }
+    }
+
+    packaging { jniLibs {
+        useLegacyPackaging true
+        if (reuseNative) keepDebugSymbols.add('**/*.so')
+    } }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            // AGP builds release natives as RelWithDebInfo (-O2 -g); the game wants the SDK's Release
+            // flags (-O3, no asserts) and ThinLTO (src/main/cpp/CMakeLists.txt).
+            if (!reuseNative) { externalNativeBuild {
+                cmake {
+                    arguments '-DCMAKE_BUILD_TYPE=Release'
+                }
+            } }
+        }
+    }
+
+    if (!reuseNative) { externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.30.5'
+        }
+    } }
+
+    buildFeatures { buildConfig true }
+    testOptions { unitTests.includeAndroidResources = true }
+
+    if (!reuseNative) ndkVersion '28.2.13676358'
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.documentfile:documentfile:1.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}
+
+if (reuseNative) {
+    tasks.register('checkPrebuiltEngine') {
+        doLast {
+            if (!file("$prebuiltRoot/jniLibs/arm64-v8a/libmain.so").isFile() ||
+                    !file("$prebuiltRoot/sdl-java/org/libsdl/app/SDLActivity.java").isFile() ||
+                    !file("$prebuiltRoot/provenance.json").isFile()) {
+                throw new GradleException('Run python tools/prepare_android_prebuilt.py --apk /path/to/v0.5.4.apk first.')
+            }
+        }
+    }
+    tasks.named('preBuild').configure { dependsOn 'checkPrebuiltEngine' }
+}

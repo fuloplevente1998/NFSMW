@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_ok" formatted="false">"OK"</string>
+    <string name="ui_updates" formatted="false">"Updates"</string>
+    <string name="ui_installed_version" formatted="false">"Installed version: "</string>
+    <string name="ui_no_newer_stable_release_is_available_on_github" formatted="false">". No newer stable release is available on GitHub."</string>
+    <string name="ui_new_version_available" formatted="false">"New version available: "</string>
+    <string name="ui_you_can_update_from_github_or_keep_playing_this_version_in" formatted="false">"You can update from GitHub or keep playing this version. Install the APK "</string>
+    <string name="ui_over_the_previous_version_to_keep_your_saves_and_settings" formatted="false">"over the previous version to keep your saves and settings."</string>
+    <string name="ui_update" formatted="false">"Update"</string>
+    <string name="ui_no_app_is_available_to_open_github" formatted="false">"No app is available to open GitHub."</string>
+    <string name="ui_later" formatted="false">"Later"</string>
+    <string name="ui_most_wanted_android" formatted="false">"Most Wanted · Android"</string>
+    <string name="ui_game_files" formatted="false">"GAME FILES"</string>
+    <string name="ui_play" formatted="false">"PLAY"</string>
+    <string name="ui_choose_game_folder" formatted="false">"Choose game folder"</string>
+    <string name="ui_graphics_settings" formatted="false">"GRAPHICS SETTINGS"</string>
+    <string name="ui_changes_apply_when_the_game_starts" formatted="false">"Changes apply when the game starts."</string>
+    <string name="ui_save_or_share_a_report" formatted="false">"Save or share a report"</string>
+    <string name="ui_unsupported_game_edition" formatted="false">"Unsupported game edition"</string>
+    <string name="ui_your_default_xex_is_from_edition" formatted="false">"Your default.xex is from edition "</string>
+    <string name="ui_this_version" formatted="false">". This version "</string>
+    <string name="ui_of_the_app_was_built_for_edition" formatted="false">"of the app was built for edition "</string>
+    <string name="ui_and_another_edition_will_close_at_startup_use_edition" formatted="false">" and another edition will close at startup.\n\nUse edition "</string>
+    <string name="ui_its_default_xex_sha_256_begins_with" formatted="false">" (its default.xex SHA-256 begins with "</string>
+    <string name="ui_back" formatted="false">"Back"</string>
+    <string name="ui_play_anyway" formatted="false">"Play anyway"</string>
+    <string name="ui_try_another_renderer" formatted="false">"Try another renderer"</string>
+    <string name="ui_you_can_try_experimental_compatibility_mode_it_may_show_gr" formatted="false">"\n\nYou can try experimental compatibility mode. It may show graphical errors or run more slowly."</string>
+    <string name="ui_try_compatibility_mode" formatted="false">"Try compatibility mode"</string>
+    <string name="ui_save_or_share_diagnostics" formatted="false">"Save or share diagnostics"</string>
+    <string name="ui_the_report_includes_your_phone_model_android_version_gpu_s" formatted="false">"The report includes your phone model, Android version, GPU, settings and app logs. Describe what happened before sharing it."</string>
+    <string name="ui_email" formatted="false">"Email"</string>
+    <string name="ui_save_zip" formatted="false">"Save ZIP"</string>
+    <string name="ui_diagnostics" formatted="false">"Diagnostics"</string>
+    <string name="ui_preparing_report" formatted="false">"Preparing report…"</string>
+    <string name="ui_could_not_prepare_the_report" formatted="false">"Could not prepare the report: "</string>
+    <string name="ui_diagnostics_df59c" formatted="false">" — diagnostics"</string>
+    <string name="ui_what_happened_steps_to_reproduce_game_edition_diagnostics_" formatted="false">"\nWhat happened:\n\nSteps to reproduce:\n\nGame edition:\n\nDiagnostics attached."</string>
+    <string name="ui_nfsmw_diagnostics" formatted="false">"NFSMW diagnostics"</string>
+    <string name="ui_send_to" formatted="false">"Send to "</string>
+    <string name="ui_report_on_github" formatted="false">"Report on GitHub"</string>
+    <string name="ui_save_the_zip_first_then_github_opens_describe_the_problem_" formatted="false">"Save the ZIP first. Then GitHub opens: describe the problem and attach the saved ZIP."</string>
+    <string name="ui_save_and_open_github" formatted="false">"Save and open GitHub"</string>
+    <string name="ui_cancel" formatted="false">"Cancel"</string>
+    <string name="ui_no_app_is_available_to_save_files_try_email_instead" formatted="false">"No app is available to save files. Try Email instead."</string>
+    <string name="ui_this_report_is_no_longer_available_create_a_new_one" formatted="false">"This report is no longer available. Create a new one."</string>
+    <string name="ui_could_not_open_the_destination_file" formatted="false">"Could not open the destination file."</string>
+    <string name="ui_could_not_save_the_zip" formatted="false">"Could not save the ZIP: "</string>
+    <string name="ui_what_happened_steps_to_reproduce_game_edition_device" formatted="false">"### What happened\n\n### Steps to reproduce\n\n### Game edition\n\n### Device\n"</string>
+    <string name="ui_diagnostics_attach_the_saved_file" formatted="false">"\n### Diagnostics\nAttach the saved file **"</string>
+    <string name="ui_here" formatted="false">"** here.\n"</string>
+    <string name="ui_zip_saved_open" formatted="false">"ZIP saved. Open "</string>
+    <string name="ui_and_attach_it_to_your_issue" formatted="false">" and attach it to your issue."</string>
+    <string name="ui_zip_saved_attach_it_to_an_issue_or_email_it_to" formatted="false">"ZIP saved. Attach it to an issue or email it to "</string>
+    <string name="ui_preparing_graphics_for_the_first_launch" formatted="false">"Preparing graphics for the first launch…"</string>
+    <string name="ui_could_not_prepare_graphics" formatted="false">"Could not prepare graphics: "</string>
+    <string name="ui_vulkan_driver" formatted="false">"Vulkan driver"</string>
+    <string name="ui_system_default" formatted="false">"System default"</string>
+    <string name="ui_test_driver" formatted="false">"Test driver"</string>
+    <string name="ui_check_gpu_compatibility" formatted="false">"Check GPU compatibility"</string>
+    <string name="ui_check_for_updates" formatted="false">"Check for updates"</string>
+    <string name="ui_checking_github" formatted="false">"Checking GitHub…"</string>
+    <string name="ui_version" formatted="false">"Version "</string>
+    <string name="ui_screen_format" formatted="false">"Screen format"</string>
+    <string name="ui_fill_screen" formatted="false">"Fill screen"</string>
+    <string name="ui_original_16_9" formatted="false">"Original 16:9"</string>
+    <string name="ui_system_driver" formatted="false">"System driver"</string>
+    <string name="ui_import_zip" formatted="false">"Import ZIP"</string>
+    <string name="ui_remove_selected" formatted="false">"Remove selected"</string>
+    <string name="ui_unavailable" formatted="false">"unavailable"</string>
+    <string name="ui_descriptor_sets" formatted="false">"\nDescriptor sets: "</string>
+    <string name="ui_required_gpu_features_are_available" formatted="false">"Required GPU features are available."</string>
+    <string name="ui_missing_features" formatted="false">"Missing features: "</string>
+    <string name="ui_could_not_test_the_driver" formatted="false">"Could not test the driver. "</string>
+    <string name="ui_could_not_load_vulkan" formatted="false">"Could not load Vulkan."</string>
+    <string name="ui_vulkan_driver_test" formatted="false">"Vulkan driver test"</string>
+    <string name="ui_use_system_driver" formatted="false">"Use system driver"</string>
+    <string name="ui_invalid_diagnostics" formatted="false">"Invalid diagnostics: "</string>
+    <string name="ui_nfs_folder" formatted="false">"NFS folder"</string>
+    <string name="ui_movies_folder" formatted="false">"Movies folder"</string>
+    <string name="ui_prepared_graphics" formatted="false">"Prepared graphics"</string>
+    <string name="ui_prepared_when_you_tap_play" formatted="false">" · prepared when you tap PLAY"</string>
+    <string name="ui_importing_vulkan_driver" formatted="false">"Importing Vulkan driver…"</string>
+    <string name="ui_driver_imported" formatted="false">"Driver imported: "</string>
+    <string name="ui_use_test_driver_to_check_it" formatted="false">". Use Test driver to check it."</string>
+    <string name="ui_could_not_import_the_driver" formatted="false">"Could not import the driver: "</string>
+    <string name="ui_allow_storage_access_to_use_internal_storage" formatted="false">"Allow storage access to use Internal storage/"</string>
+    <string name="ui_could_not_save_folder_permission" formatted="false">"Could not save folder permission: "</string>
+    <string name="ui_to_use_internal_storage" formatted="false">"To use Internal storage/"</string>
+    <string name="ui_allow_the_file_access_requested_by_android" formatted="false">", allow the file access requested by Android."</string>
+    <string name="ui_checking_game_files" formatted="false">"Checking game files…"</string>
+    <string name="ui_moving_the_game_to_internal_storage" formatted="false">"Moving the game to Internal storage/"</string>
+    <string name="ui_the_copied_files_failed_validation" formatted="false">"The copied files failed validation."</string>
+    <string name="ui_game_moved_from_app_storage" formatted="false">"Game moved from app storage."</string>
+    <string name="ui_could_not_create" formatted="false">"Could not create "</string>
+    <string name="ui_could_not_prepare_the_game_folder" formatted="false">"Could not prepare the game folder: "</string>
+    <string name="ui_copying_the_game_to_internal_storage" formatted="false">"Copying the game to Internal storage/"</string>
+    <string name="ui_could_not_open_the_selected_folder" formatted="false">"Could not open the selected folder."</string>
+    <string name="ui_choose_the_folder_containing_default_xex_nfs_and_movies" formatted="false">"Choose the folder containing default.xex, NFS and Movies."</string>
+    <string name="ui_import_failed" formatted="false">"Import failed: "</string>
+    <string name="ui_the_game_folder_contains_an_invalid_path" formatted="false">"The game folder contains an invalid path."</string>
+    <string name="ui_the_game_folder_contains_an_invalid_name" formatted="false">"The game folder contains an invalid name."</string>
+    <string name="ui_a_file_points_outside_the_import_folder" formatted="false">"A file points outside the import folder."</string>
+    <string name="ui_could_not_create_a_game_folder" formatted="false">"Could not create a game folder."</string>
+    <string name="ui_could_not_read" formatted="false">"Could not read "</string>
+    <string name="ui_copied" formatted="false">"Copied "</string>
+    <string name="ui_moved" formatted="false">"Moved "</string>
+    <string name="ui_internal_storage" formatted="false">"Internal storage/"</string>
+    <string name="ui_change_game_folder" formatted="false">"Change game folder"</string>
+    <string name="ui_choose_the_extracted_game_folder_containing_default_xex_nf" formatted="false">"Choose the extracted game folder containing default.xex, NFS and Movies. It will be copied to "</string>
+    <string name="ui_could_not_delete" formatted="false">"Could not delete "</string>
+    <string name="ui_tap_to_select_drag_to_move_pinch_to_resize" formatted="false">"Tap to select · drag to move · pinch to resize"</string>
+    <string name="ui_size" formatted="false">"Size −"</string>
+    <string name="ui_size_d2abd" formatted="false">"Size +"</string>
+    <string name="ui_show_hide" formatted="false">"Show / hide"</string>
+    <string name="ui_settings" formatted="false">"Settings"</string>
+    <string name="ui_reset" formatted="false">"Reset"</string>
+    <string name="ui_done" formatted="false">"Done"</string>
+    <string name="ui_reset_controls" formatted="false">"Reset controls"</string>
+    <string name="ui_reset_all_controls_to_their_original_position_and_size" formatted="false">"Reset all controls to their original position and size?"</string>
+    <string name="ui_fill_the_entire_screen" formatted="false">"Fill the entire screen"</string>
+    <string name="ui_vibrate_on_touch" formatted="false">"Vibrate on touch"</string>
+    <string name="ui_hide_touch_controls_when_a_gamepad_is_connected" formatted="false">"Hide touch controls when a gamepad is connected"</string>
+    <string name="ui_tilt_to_steer" formatted="false">"Tilt to steer"</string>
+    <string name="ui_tilt_sensitivity" formatted="false">"Tilt sensitivity"</string>
+    <string name="ui_control_opacity" formatted="false">"Control opacity"</string>
+    <string name="ui_control_settings" formatted="false">"Control settings"</string>
+    <string name="ui_close" formatted="false">"Close"</string>
+    <string name="ui_gas" formatted="false">"GAS"</string>
+    <string name="ui_brake" formatted="false">"BRAKE"</string>
+    <string name="ui_nitro" formatted="false">"NITRO"</string>
+    <string name="ui_tilt" formatted="false">"TILT"</string>
+    <string name="ui_checking_vulkan_driver" formatted="false">"Checking Vulkan driver…"</string>
+    <string name="ui_renderer" formatted="false">"Renderer"</string>
+    <string name="ui_native" formatted="false">"Native"</string>
+    <string name="ui_compatibility_experimental" formatted="false">"Compatibility · experimental"</string>
+    <string name="ui_graphics_stability" formatted="false">"Graphics stability"</string>
+    <string name="ui_automatic_mali_protection" formatted="false">"Automatic · Mali protection"</string>
+    <string name="ui_maximum_compatibility_no_sun_flare" formatted="false">"Maximum compatibility · no sun flare"</string>
+    <string name="ui_full_effects_experimental" formatted="false">"Full effects · experimental"</string>
+    <string name="ui_internal_resolution" formatted="false">"Internal resolution"</string>
+    <string name="ui_640_360_fastest" formatted="false">"640×360 · fastest"</string>
+    <string name="ui_1024_576_performance" formatted="false">"1024×576 · performance"</string>
+    <string name="ui_1280_720_balanced" formatted="false">"1280×720 · balanced"</string>
+    <string name="ui_1920_1080_best_quality" formatted="false">"1920×1080 · best quality"</string>
+    <string name="ui_frame_rate_limit" formatted="false">"Frame rate limit"</string>
+    <string name="ui_30_fps_battery_saver" formatted="false">"30 FPS · battery saver"</string>
+    <string name="ui_90_fps_experimental" formatted="false">"90 FPS · experimental"</string>
+    <string name="ui_120_fps_experimental" formatted="false">"120 FPS · experimental"</string>
+    <string name="ui_off" formatted="false">"Off"</string>
+    <string name="ui_shadows" formatted="false">"Shadows"</string>
+    <string name="ui_every_frame" formatted="false">"Every frame"</string>
+    <string name="ui_every_2_frames_faster" formatted="false">"Every 2 frames · faster"</string>
+    <string name="ui_car_reflections" formatted="false">"Car reflections"</string>
+    <string name="ui_high" formatted="false">"High"</string>
+    <string name="ui_medium" formatted="false">"Medium"</string>
+    <string name="ui_low_faster" formatted="false">"Low · faster"</string>
+    <string name="ui_wet_road_reflections" formatted="false">"Wet road reflections"</string>
+    <string name="ui_on" formatted="false">"On"</string>
+    <string name="ui_off_faster" formatted="false">"Off · faster"</string>
+    <string name="ui_sky_glow" formatted="false">"Sky glow"</string>
+    <string name="ui_original_xbox_360" formatted="false">"Original (Xbox 360)"</string>
+    <string name="ui_natural" formatted="false">"Natural"</string>
+    <string name="ui_soft" formatted="false">"Soft"</string>
+    <string name="ui_game_text_language" formatted="false">"Game text language"</string>
+    <string name="ui_disc_default" formatted="false">"Disc default"</string>
+    <string name="ui_spanish" formatted="false">"Spanish"</string>
+    <string name="ui_english" formatted="false">"English"</string>
+    <string name="ui_french" formatted="false">"French"</string>
+    <string name="ui_german" formatted="false">"German"</string>
+    <string name="ui_italian" formatted="false">"Italian"</string>
+    <string name="ui_dutch" formatted="false">"Dutch"</string>
+    <string name="ui_swedish" formatted="false">"Swedish"</string>
+    <string name="ui_danish" formatted="false">"Danish"</string>
+    <string name="ui_polish" formatted="false">"Polish"</string>
+    <string name="ui_finnish" formatted="false">"Finnish"</string>
+    <string name="ui_game_volume" formatted="false">"Game volume"</string>
+    <string name="ui_normal" formatted="false">"Normal"</string>
+    <string name="ui_loud" formatted="false">"Loud"</string>
+    <string name="ui_very_loud" formatted="false">"Very loud"</string>
+    <string name="ui_maximum_may_distort" formatted="false">"Maximum · may distort"</string>
+    <string name="ui_image_filter" formatted="false">"Image filter"</string>
+    <string name="ui_no_filter" formatted="false">"No filter"</string>
+    <string name="ui_cinema" formatted="false">"Cinema"</string>
+    <string name="ui_vivid" formatted="false">"Vivid"</string>
+    <string name="ui_warm" formatted="false">"Warm"</string>
+    <string name="ui_cool" formatted="false">"Cool"</string>
+    <string name="ui_sepia" formatted="false">"Sepia"</string>
+    <string name="ui_black_and_white" formatted="false">"Black and white"</string>
+    <string name="ui_60_fps" formatted="false">"60 FPS"</string>
+    <string name="ui_antialiasing" formatted="false">"Antialiasing"</string>
+    <string name="ui_fxaa" formatted="false">"FXAA"</string>
+    <string name="ui_crt" formatted="false">"CRT"</string>
+    <string name="app_name" formatted="false">"NFSMW HU-EN Test"</string>
+    <string name="app_language" formatted="false">"App language"</string>
+    <string name="ui_language_note" formatted="false">"This changes the Android menus and touch controls. The game text language is a separate setting; Hungarian game text is not included yet."</string>
+    <string name="language_busy" formatted="false">"Wait for the current operation to finish before changing the app language."</string>
+    <string name="report_saved_local" formatted="false">"Report saved. You can keep it for testing or share it yourself."</string>
+    <string name="touch_steering" formatted="false">"STEER"</string>
+    <string name="touch_handbrake" formatted="false">"HANDBRAKE"</string>
+    <string name="touch_camera" formatted="false">"CAMERA"</string>
+    <string name="touch_look_back" formatted="false">"LOOK BACK"</string>
+    <string name="shader_progress" formatted="true">"Preparing graphics: %1$d%%"</string>
+    <string name="shader_process_gone" formatted="false">"The shader compiler stopped (possibly out of memory)."</string>
+    <string name="shader_save_failed" formatted="false">"Could not save "</string>
+    <string name="probe_timeout" formatted="false">"The driver test exceeded 20 seconds."</string>
+    <string name="probe_load_failed" formatted="false">"Could not load the diagnostic library."</string>
+    <string name="probe_cancelled" formatted="false">"The test closed or was cancelled. You can switch back to the system driver."</string>
+    <string name="gpu_incompatible" formatted="true">"The driver for %1$s does not provide the features required by the native renderer.\n\nDevice Vulkan: %2$s\n\nLowering the resolution will not fix this. Save a diagnostic report to help investigate support."</string>
+    <string name="not_available" formatted="false">"not available"</string>
+    <string name="unknown" formatted="false">"unknown"</string>
+    <string name="diagnostic_phone" formatted="false">"Phone: "</string>
+    <string name="diagnostic_driver" formatted="false">"Selected driver: "</string>
+    <string name="diagnostic_edition" formatted="false">"Game edition: "</string>
+    <string name="missing_xex" formatted="false">"missing default.xex"</string>
+    <string name="edition_unsupported" formatted="false">" (unsupported, SHA-256 "</string>
+    <string name="report_create_failed" formatted="false">"Could not create the report."</string>
+    <string name="driver_android_old" formatted="false">"External drivers need Android 9 or later."</string>
+    <string name="driver_create_failed" formatted="false">"Could not create the driver folder."</string>
+    <string name="driver_missing_meta" formatted="false">"The driver ZIP is missing meta.json."</string>
+    <string name="driver_invalid_library" formatted="false">"Invalid libraryName."</string>
+    <string name="driver_android_newer" formatted="false">"This driver needs a newer Android version."</string>
+    <string name="driver_invalid_name" formatted="false">"Invalid driver name."</string>
+    <string name="driver_install_failed" formatted="false">"Could not install the driver."</string>
+    <string name="driver_protect_failed" formatted="false">"Could not protect the driver library."</string>
+    <string name="driver_invalid_path" formatted="false">"Invalid driver path."</string>
+</resources>

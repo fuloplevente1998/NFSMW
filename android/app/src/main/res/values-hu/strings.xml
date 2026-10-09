@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_ok" formatted="false">"Rendben"</string>
+    <string name="ui_updates" formatted="false">"Frissítések"</string>
+    <string name="ui_installed_version" formatted="false">"Telepített verzió: "</string>
+    <string name="ui_no_newer_stable_release_is_available_on_github" formatted="false">". Nincs újabb stabil kiadás a GitHubon."</string>
+    <string name="ui_new_version_available" formatted="false">"Új verzió érhető el: "</string>
+    <string name="ui_you_can_update_from_github_or_keep_playing_this_version_in" formatted="false">"Frissíthetsz a GitHubról, vagy játszhatsz ezzel a verzióval. Telepítsd az APK-t "</string>
+    <string name="ui_over_the_previous_version_to_keep_your_saves_and_settings" formatted="false">"a korábbi verzióra, hogy megmaradjanak a mentéseid és beállításaid."</string>
+    <string name="ui_update" formatted="false">"Frissítés"</string>
+    <string name="ui_no_app_is_available_to_open_github" formatted="false">"Nincs alkalmazás a GitHub megnyitásához."</string>
+    <string name="ui_later" formatted="false">"Később"</string>
+    <string name="ui_most_wanted_android" formatted="false">"Most Wanted · Android"</string>
+    <string name="ui_game_files" formatted="false">"JÁTÉKFÁJLOK"</string>
+    <string name="ui_play" formatted="false">"JÁTÉK"</string>
+    <string name="ui_choose_game_folder" formatted="false">"Játék mappájának kiválasztása"</string>
+    <string name="ui_graphics_settings" formatted="false">"GRAFIKAI BEÁLLÍTÁSOK"</string>
+    <string name="ui_changes_apply_when_the_game_starts" formatted="false">"A módosítások a játék indításakor lépnek életbe."</string>
+    <string name="ui_save_or_share_a_report" formatted="false">"Hibajelentés mentése / megosztása"</string>
+    <string name="ui_unsupported_game_edition" formatted="false">"Nem támogatott játékkiadás"</string>
+    <string name="ui_your_default_xex_is_from_edition" formatted="false">"A default.xex kiadása: "</string>
+    <string name="ui_this_version" formatted="false">". Ez az alkalmazásverzió "</string>
+    <string name="ui_of_the_app_was_built_for_edition" formatted="false">"ehhez a kiadáshoz készült: "</string>
+    <string name="ui_and_another_edition_will_close_at_startup_use_edition" formatted="false">"; más kiadással a játék induláskor bezárul.\n\nA szükséges kiadás: "</string>
+    <string name="ui_its_default_xex_sha_256_begins_with" formatted="false">" (a default.xex SHA-256 eleje: "</string>
+    <string name="ui_back" formatted="false">"Vissza"</string>
+    <string name="ui_play_anyway" formatted="false">"Indítás mégis"</string>
+    <string name="ui_try_another_renderer" formatted="false">"Másik megjelenítő kipróbálása"</string>
+    <string name="ui_you_can_try_experimental_compatibility_mode_it_may_show_gr" formatted="false">"\n\nKipróbálhatod a kísérleti kompatibilitási módot. Grafikai hibák és lassabb működés előfordulhatnak."</string>
+    <string name="ui_try_compatibility_mode" formatted="false">"Kompatibilitási mód kipróbálása"</string>
+    <string name="ui_save_or_share_diagnostics" formatted="false">"Diagnosztika mentése / megosztása"</string>
+    <string name="ui_the_report_includes_your_phone_model_android_version_gpu_s" formatted="false">"A jelentés tartalmazza a telefon típusát, Android-verzióját, GPU-ját, beállításait és az alkalmazás naplóit. Megosztás előtt írd le a hibát."</string>
+    <string name="ui_email" formatted="false">"E-mail"</string>
+    <string name="ui_save_zip" formatted="false">"ZIP mentése"</string>
+    <string name="ui_diagnostics" formatted="false">"Diagnosztika"</string>
+    <string name="ui_preparing_report" formatted="false">"Jelentés készítése…"</string>
+    <string name="ui_could_not_prepare_the_report" formatted="false">"Nem sikerült elkészíteni a jelentést: "</string>
+    <string name="ui_diagnostics_df59c" formatted="false">" — diagnosztika"</string>
+    <string name="ui_what_happened_steps_to_reproduce_game_edition_diagnostics_" formatted="false">"\nMi történt:\n\nA hiba előidézésének lépései:\n\nJátékkiadás:\n\nA diagnosztikát csatoltam."</string>
+    <string name="ui_nfsmw_diagnostics" formatted="false">"NFSMW diagnosztika"</string>
+    <string name="ui_send_to" formatted="false">"Címzett: "</string>
+    <string name="ui_report_on_github" formatted="false">"Hibajelentés a GitHubon"</string>
+    <string name="ui_save_the_zip_first_then_github_opens_describe_the_problem_" formatted="false">"Először mentsd el a ZIP-et. Ezután megnyílik a GitHub: írd le a hibát, és csatold a mentett ZIP-et."</string>
+    <string name="ui_save_and_open_github" formatted="false">"Mentés és a GitHub megnyitása"</string>
+    <string name="ui_cancel" formatted="false">"Mégse"</string>
+    <string name="ui_no_app_is_available_to_save_files_try_email_instead" formatted="false">"Nincs alkalmazás a fájlok mentéséhez. Próbáld az E-mail lehetőséget."</string>
+    <string name="ui_this_report_is_no_longer_available_create_a_new_one" formatted="false">"A jelentés már nem érhető el. Készíts újat."</string>
+    <string name="ui_could_not_open_the_destination_file" formatted="false">"Nem sikerült megnyitni a célfájlt."</string>
+    <string name="ui_could_not_save_the_zip" formatted="false">"Nem sikerült menteni a ZIP-et: "</string>
+    <string name="ui_what_happened_steps_to_reproduce_game_edition_device" formatted="false">"### Mi történt\n\n### A hiba előidézésének lépései\n\n### Játékkiadás\n\n### Eszköz\n"</string>
+    <string name="ui_diagnostics_attach_the_saved_file" formatted="false">"\n### Diagnosztika\nCsatold a mentett fájlt: **"</string>
+    <string name="ui_here" formatted="false">"**.\n"</string>
+    <string name="ui_zip_saved_open" formatted="false">"ZIP elmentve. Nyisd meg ezt: "</string>
+    <string name="ui_and_attach_it_to_your_issue" formatted="false">", és csatold a hibajelentéshez."</string>
+    <string name="ui_zip_saved_attach_it_to_an_issue_or_email_it_to" formatted="false">"ZIP elmentve. Csatolhatod egy hibajelentéshez, vagy elküldheted ide: "</string>
+    <string name="ui_preparing_graphics_for_the_first_launch" formatted="false">"Grafika előkészítése az első indításhoz…"</string>
+    <string name="ui_could_not_prepare_graphics" formatted="false">"Nem sikerült előkészíteni a grafikát: "</string>
+    <string name="ui_vulkan_driver" formatted="false">"Vulkan-illesztőprogram"</string>
+    <string name="ui_system_default" formatted="false">"Rendszer alapértelmezése"</string>
+    <string name="ui_test_driver" formatted="false">"Illesztőprogram tesztelése"</string>
+    <string name="ui_check_gpu_compatibility" formatted="false">"GPU-kompatibilitás ellenőrzése"</string>
+    <string name="ui_check_for_updates" formatted="false">"Frissítések keresése"</string>
+    <string name="ui_checking_github" formatted="false">"GitHub ellenőrzése…"</string>
+    <string name="ui_version" formatted="false">"Verzió: "</string>
+    <string name="ui_screen_format" formatted="false">"Képformátum"</string>
+    <string name="ui_fill_screen" formatted="false">"Teljes képernyő kitöltése"</string>
+    <string name="ui_original_16_9" formatted="false">"Eredeti 16:9"</string>
+    <string name="ui_system_driver" formatted="false">"Rendszer illesztőprogramja"</string>
+    <string name="ui_import_zip" formatted="false">"ZIP importálása"</string>
+    <string name="ui_remove_selected" formatted="false">"Kijelölt eltávolítása"</string>
+    <string name="ui_unavailable" formatted="false">"nem érhető el"</string>
+    <string name="ui_descriptor_sets" formatted="false">"\nLeírókészletek: "</string>
+    <string name="ui_required_gpu_features_are_available" formatted="false">"A szükséges GPU-funkciók elérhetők."</string>
+    <string name="ui_missing_features" formatted="false">"Hiányzó funkciók: "</string>
+    <string name="ui_could_not_test_the_driver" formatted="false">"Nem sikerült tesztelni az illesztőprogramot. "</string>
+    <string name="ui_could_not_load_vulkan" formatted="false">"Nem sikerült betölteni a Vulkant."</string>
+    <string name="ui_vulkan_driver_test" formatted="false">"Vulkan-illesztőprogram tesztje"</string>
+    <string name="ui_use_system_driver" formatted="false">"Rendszer illesztőprogramjának használata"</string>
+    <string name="ui_invalid_diagnostics" formatted="false">"Érvénytelen diagnosztika: "</string>
+    <string name="ui_nfs_folder" formatted="false">"NFS mappa"</string>
+    <string name="ui_movies_folder" formatted="false">"Movies mappa"</string>
+    <string name="ui_prepared_graphics" formatted="false">"Előkészített grafika"</string>
+    <string name="ui_prepared_when_you_tap_play" formatted="false">" · a JÁTÉK gombbal készül el"</string>
+    <string name="ui_importing_vulkan_driver" formatted="false">"Vulkan-illesztőprogram importálása…"</string>
+    <string name="ui_driver_imported" formatted="false">"Illesztőprogram importálva: "</string>
+    <string name="ui_use_test_driver_to_check_it" formatted="false">". Ellenőrizd az Illesztőprogram tesztelése lehetőséggel."</string>
+    <string name="ui_could_not_import_the_driver" formatted="false">"Nem sikerült importálni az illesztőprogramot: "</string>
+    <string name="ui_allow_storage_access_to_use_internal_storage" formatted="false">"Engedélyezd a tárhelyhozzáférést ehhez: Belső tárhely/"</string>
+    <string name="ui_could_not_save_folder_permission" formatted="false">"Nem sikerült menteni a mappa jogosultságát: "</string>
+    <string name="ui_to_use_internal_storage" formatted="false">"Ennek használatához: Belső tárhely/"</string>
+    <string name="ui_allow_the_file_access_requested_by_android" formatted="false">", engedélyezd az Android által kért fájlhozzáférést."</string>
+    <string name="ui_checking_game_files" formatted="false">"Játékfájlok ellenőrzése…"</string>
+    <string name="ui_moving_the_game_to_internal_storage" formatted="false">"A játék áthelyezése ide: Belső tárhely/"</string>
+    <string name="ui_the_copied_files_failed_validation" formatted="false">"A másolt fájlok ellenőrzése sikertelen."</string>
+    <string name="ui_game_moved_from_app_storage" formatted="false">"A játék áthelyezve az alkalmazás tárhelyéről."</string>
+    <string name="ui_could_not_create" formatted="false">"Nem sikerült létrehozni: "</string>
+    <string name="ui_could_not_prepare_the_game_folder" formatted="false">"Nem sikerült előkészíteni a játék mappáját: "</string>
+    <string name="ui_copying_the_game_to_internal_storage" formatted="false">"A játék másolása ide: Belső tárhely/"</string>
+    <string name="ui_could_not_open_the_selected_folder" formatted="false">"Nem sikerült megnyitni a kiválasztott mappát."</string>
+    <string name="ui_choose_the_folder_containing_default_xex_nfs_and_movies" formatted="false">"Válaszd a default.xex fájlt, valamint az NFS és Movies mappát tartalmazó mappát."</string>
+    <string name="ui_import_failed" formatted="false">"Sikertelen importálás: "</string>
+    <string name="ui_the_game_folder_contains_an_invalid_path" formatted="false">"A játék mappája érvénytelen útvonalat tartalmaz."</string>
+    <string name="ui_the_game_folder_contains_an_invalid_name" formatted="false">"A játék mappája érvénytelen nevet tartalmaz."</string>
+    <string name="ui_a_file_points_outside_the_import_folder" formatted="false">"Egy fájl az importálási mappán kívülre mutat."</string>
+    <string name="ui_could_not_create_a_game_folder" formatted="false">"Nem sikerült létrehozni egy játékmappát."</string>
+    <string name="ui_could_not_read" formatted="false">"Nem sikerült olvasni: "</string>
+    <string name="ui_copied" formatted="false">"Másolva: "</string>
+    <string name="ui_moved" formatted="false">"Áthelyezve: "</string>
+    <string name="ui_internal_storage" formatted="false">"Belső tárhely/"</string>
+    <string name="ui_change_game_folder" formatted="false">"Játék mappájának módosítása"</string>
+    <string name="ui_choose_the_extracted_game_folder_containing_default_xex_nf" formatted="false">"Válaszd a kibontott játék mappáját (default.xex, NFS és Movies). A másolás helye: "</string>
+    <string name="ui_could_not_delete" formatted="false">"Nem sikerült törölni: "</string>
+    <string name="ui_tap_to_select_drag_to_move_pinch_to_resize" formatted="false">"Koppints a kijelöléshez · húzd az áthelyezéshez · csípd össze az átméretezéshez"</string>
+    <string name="ui_size" formatted="false">"Méret −"</string>
+    <string name="ui_size_d2abd" formatted="false">"Méret +"</string>
+    <string name="ui_show_hide" formatted="false">"Megjelenítés / elrejtés"</string>
+    <string name="ui_settings" formatted="false">"Beállítások"</string>
+    <string name="ui_reset" formatted="false">"Visszaállítás"</string>
+    <string name="ui_done" formatted="false">"Kész"</string>
+    <string name="ui_reset_controls" formatted="false">"Vezérlők visszaállítása"</string>
+    <string name="ui_reset_all_controls_to_their_original_position_and_size" formatted="false">"Visszaállítod az összes vezérlő eredeti helyét és méretét?"</string>
+    <string name="ui_fill_the_entire_screen" formatted="false">"Teljes képernyő kitöltése"</string>
+    <string name="ui_vibrate_on_touch" formatted="false">"Rezgés érintéskor"</string>
+    <string name="ui_hide_touch_controls_when_a_gamepad_is_connected" formatted="false">"Érintős vezérlők elrejtése kontroller használatakor"</string>
+    <string name="ui_tilt_to_steer" formatted="false">"Kormányzás a telefon döntésével"</string>
+    <string name="ui_tilt_sensitivity" formatted="false">"Döntés érzékenysége"</string>
+    <string name="ui_control_opacity" formatted="false">"Vezérlők láthatósága"</string>
+    <string name="ui_control_settings" formatted="false">"Vezérlés beállításai"</string>
+    <string name="ui_close" formatted="false">"Bezárás"</string>
+    <string name="ui_gas" formatted="false">"GÁZ"</string>
+    <string name="ui_brake" formatted="false">"FÉK"</string>
+    <string name="ui_nitro" formatted="false">"NITRÓ"</string>
+    <string name="ui_tilt" formatted="false">"DÖNTÉS"</string>
+    <string name="ui_checking_vulkan_driver" formatted="false">"Vulkan-illesztőprogram ellenőrzése…"</string>
+    <string name="ui_renderer" formatted="false">"Megjelenítő"</string>
+    <string name="ui_native" formatted="false">"Natív"</string>
+    <string name="ui_compatibility_experimental" formatted="false">"Kompatibilitás · kísérleti"</string>
+    <string name="ui_graphics_stability" formatted="false">"Grafika stabilitása"</string>
+    <string name="ui_automatic_mali_protection" formatted="false">"Automatikus · Mali-védelem"</string>
+    <string name="ui_maximum_compatibility_no_sun_flare" formatted="false">"Maximális kompatibilitás · napfénycsillanás nélkül"</string>
+    <string name="ui_full_effects_experimental" formatted="false">"Teljes effektkészlet · kísérleti"</string>
+    <string name="ui_internal_resolution" formatted="false">"Belső felbontás"</string>
+    <string name="ui_640_360_fastest" formatted="false">"640×360 · leggyorsabb"</string>
+    <string name="ui_1024_576_performance" formatted="false">"1024×576 · teljesítmény"</string>
+    <string name="ui_1280_720_balanced" formatted="false">"1280×720 · kiegyensúlyozott"</string>
+    <string name="ui_1920_1080_best_quality" formatted="false">"1920×1080 · legjobb minőség"</string>
+    <string name="ui_frame_rate_limit" formatted="false">"Képkockasebesség korlátja"</string>
+    <string name="ui_30_fps_battery_saver" formatted="false">"30 FPS · akkukímélő"</string>
+    <string name="ui_90_fps_experimental" formatted="false">"90 FPS · kísérleti"</string>
+    <string name="ui_120_fps_experimental" formatted="false">"120 FPS · kísérleti"</string>
+    <string name="ui_off" formatted="false">"Kikapcsolva"</string>
+    <string name="ui_shadows" formatted="false">"Árnyékok"</string>
+    <string name="ui_every_frame" formatted="false">"Minden képkockánál"</string>
+    <string name="ui_every_2_frames_faster" formatted="false">"Minden 2. képkockánál · gyorsabb"</string>
+    <string name="ui_car_reflections" formatted="false">"Autó tükröződései"</string>
+    <string name="ui_high" formatted="false">"Magas"</string>
+    <string name="ui_medium" formatted="false">"Közepes"</string>
+    <string name="ui_low_faster" formatted="false">"Alacsony · gyorsabb"</string>
+    <string name="ui_wet_road_reflections" formatted="false">"Nedves aszfalt tükröződései"</string>
+    <string name="ui_on" formatted="false">"Bekapcsolva"</string>
+    <string name="ui_off_faster" formatted="false">"Kikapcsolva · gyorsabb"</string>
+    <string name="ui_sky_glow" formatted="false">"Égbolt ragyogása"</string>
+    <string name="ui_original_xbox_360" formatted="false">"Eredeti (Xbox 360)"</string>
+    <string name="ui_natural" formatted="false">"Természetes"</string>
+    <string name="ui_soft" formatted="false">"Visszafogott"</string>
+    <string name="ui_game_text_language" formatted="false">"Játék szövegének nyelve"</string>
+    <string name="ui_disc_default" formatted="false">"Lemez alapértelmezése"</string>
+    <string name="ui_spanish" formatted="false">"Spanyol"</string>
+    <string name="ui_english" formatted="false">"Angol"</string>
+    <string name="ui_french" formatted="false">"Francia"</string>
+    <string name="ui_german" formatted="false">"Német"</string>
+    <string name="ui_italian" formatted="false">"Olasz"</string>
+    <string name="ui_dutch" formatted="false">"Holland"</string>
+    <string name="ui_swedish" formatted="false">"Svéd"</string>
+    <string name="ui_danish" formatted="false">"Dán"</string>
+    <string name="ui_polish" formatted="false">"Lengyel"</string>
+    <string name="ui_finnish" formatted="false">"Finn"</string>
+    <string name="ui_game_volume" formatted="false">"Játék hangereje"</string>
+    <string name="ui_normal" formatted="false">"Normál"</string>
+    <string name="ui_loud" formatted="false">"Hangos"</string>
+    <string name="ui_very_loud" formatted="false">"Nagyon hangos"</string>
+    <string name="ui_maximum_may_distort" formatted="false">"Maximum · torzíthat"</string>
+    <string name="ui_image_filter" formatted="false">"Képszűrő"</string>
+    <string name="ui_no_filter" formatted="false">"Nincs szűrő"</string>
+    <string name="ui_cinema" formatted="false">"Mozi"</string>
+    <string name="ui_vivid" formatted="false">"Élénk"</string>
+    <string name="ui_warm" formatted="false">"Meleg"</string>
+    <string name="ui_cool" formatted="false">"Hideg"</string>
+    <string name="ui_sepia" formatted="false">"Szépia"</string>
+    <string name="ui_black_and_white" formatted="false">"Fekete-fehér"</string>
+    <string name="ui_60_fps" formatted="false">"60 FPS"</string>
+    <string name="ui_antialiasing" formatted="false">"Antialiasing"</string>
+    <string name="ui_fxaa" formatted="false">"FXAA"</string>
+    <string name="ui_crt" formatted="false">"CRT"</string>
+    <string name="app_name" formatted="false">"NFSMW HU-EN Teszt"</string>
+    <string name="app_language" formatted="false">"Alkalmazás nyelve"</string>
+    <string name="ui_language_note" formatted="false">"Az Android-menük és az érintős vezérlők nyelvét állítja. A játék szövegének nyelve külön beállítás; magyar játékszöveg még nincs a csomagban."</string>
+    <string name="language_busy" formatted="false">"A nyelvváltáshoz várd meg az aktuális művelet végét."</string>
+    <string name="report_saved_local" formatted="false">"A jelentés elmentve. Megőrizheted a teszteléshez, vagy megoszthatod."</string>
+    <string name="touch_steering" formatted="false">"KORMÁNY"</string>
+    <string name="touch_handbrake" formatted="false">"KÉZIFÉK"</string>
+    <string name="touch_camera" formatted="false">"KAMERA"</string>
+    <string name="touch_look_back" formatted="false">"HÁTRANÉZ"</string>
+    <string name="shader_progress" formatted="true">"Grafika előkészítése: %1$d%%"</string>
+    <string name="shader_process_gone" formatted="false">"A grafikai fordító leállt (lehet, hogy elfogyott a memória)."</string>
+    <string name="shader_save_failed" formatted="false">"Nem sikerült menteni: "</string>
+    <string name="probe_timeout" formatted="false">"A meghajtó tesztje túllépte a 20 másodpercet."</string>
+    <string name="probe_load_failed" formatted="false">"Nem sikerült betölteni a diagnosztikai könyvtárat."</string>
+    <string name="probe_cancelled" formatted="false">"A teszt bezárult vagy megszakadt. Visszaválthatsz a rendszer meghajtójára."</string>
+    <string name="gpu_incompatible" formatted="true">"A(z) %1$s meghajtója nem biztosítja a natív megjelenítőhöz szükséges funkciókat.\n\nA készülék Vulkan-verziója: %2$s\n\nA felbontás csökkentése ezt nem oldja meg. A támogatás vizsgálatához ments hibajelentést."</string>
+    <string name="not_available" formatted="false">"nem elérhető"</string>
+    <string name="unknown" formatted="false">"ismeretlen"</string>
+    <string name="diagnostic_phone" formatted="false">"Telefon: "</string>
+    <string name="diagnostic_driver" formatted="false">"Kiválasztott meghajtó: "</string>
+    <string name="diagnostic_edition" formatted="false">"Játékkiadás: "</string>
+    <string name="missing_xex" formatted="false">"hiányzó default.xex"</string>
+    <string name="edition_unsupported" formatted="false">" (nem támogatott, SHA-256 "</string>
+    <string name="report_create_failed" formatted="false">"Nem sikerült létrehozni a jelentést."</string>
+    <string name="driver_android_old" formatted="false">"Külső meghajtóhoz Android 9 vagy újabb szükséges."</string>
+    <string name="driver_create_failed" formatted="false">"Nem sikerült létrehozni a meghajtó mappáját."</string>
+    <string name="driver_missing_meta" formatted="false">"A meghajtó ZIP-jéből hiányzik a meta.json."</string>
+    <string name="driver_invalid_library" formatted="false">"Érvénytelen libraryName."</string>
+    <string name="driver_android_newer" formatted="false">"Ez a meghajtó újabb Android-verziót igényel."</string>
+    <string name="driver_invalid_name" formatted="false">"Érvénytelen meghajtónév."</string>
+    <string name="driver_install_failed" formatted="false">"Nem sikerült telepíteni a meghajtót."</string>
+    <string name="driver_protect_failed" formatted="false">"Nem sikerült védeni a meghajtó könyvtárát."</string>
+    <string name="driver_invalid_path" formatted="false">"Érvénytelen meghajtóútvonal."</string>
+</resources>
